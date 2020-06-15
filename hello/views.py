@@ -1,10 +1,9 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+#from django.http import HttpResponse
 from django.shortcuts import redirect
 from .models import Friend
 from .forms import FriendForm
 from .forms import FindForm
-from django.db.models import Q
 
 
 def index(request):
